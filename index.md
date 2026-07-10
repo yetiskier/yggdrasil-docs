@@ -95,4 +95,4 @@ contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)**.
 
 ---
 
-*Yggdrasil is proprietary software by Aesir Mountain Technology.*
+*Yggdrasil is proprietary software by Aesir Consulting LLC.*
