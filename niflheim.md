@@ -65,4 +65,4 @@ Niflheim is commercially licensed as part of the Yggdrasil suite (Windows
 and Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for
 licensing and installers.
 
-[← Back to the suite overview](index.html)
+[← Back to the suite overview](yggdrasil.html)
