@@ -82,7 +82,26 @@ Frequency-domain EM (Geonics EM31-class instruments): NMEA geolocation,
 drift/despike/detrend processing, calibration overrides, map gridding, and
 anomaly detection.</td>
 </tr>
+<tr>
+<td align="center"><a href="mjolnir.html"><img src="assets/img/Mjolnir_logo.png" alt="Mjölnir logo" width="90"></a></td>
+<td><strong><a href="mjolnir.html">Mjölnir — MASW / Surface Waves</a></strong><br>
+<em>Seismic.</em> Multichannel analysis of surface waves for shear-wave
+velocity (Vs): SEG-2/SEG-Y/SU input, dispersion imaging, curve picking, and
+layered Vs inversion — Vs30 and geotechnical site characterization.</td>
+</tr>
+<tr>
+<td align="center"><a href="heimdall.html"><img src="assets/img/Heimdall_logo.png" alt="Heimdall logo" width="90"></a></td>
+<td><strong><a href="heimdall.html">Heimdall — Seismic Refraction</a></strong><br>
+<em>Seismic.</em> First-arrival refraction for P-wave velocity (Vp): first-break
+picking, intercept-time / generalized reciprocal method layer models, and
+refraction tomography — depth to bedrock, water table, and rippability.</td>
+</tr>
 </table>
+
+The two **Seismic** realms — Mjölnir (MASW) and Heimdall (refraction) — run on
+the *same* seismic field records. Acquire one spread and recover both
+surface-wave shear velocity (Vs) and refraction P-wave velocity (Vp), and with
+them Vp/Vs and Poisson's ratio for joint interpretation.
 
 ## Licensing
 

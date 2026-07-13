@@ -53,6 +53,20 @@ migration, target detection, and 3D fence diagrams.</td>
 Frequency-domain EM ground conductivity: geolocation, drift and despike
 processing, map gridding, and anomaly detection.</td>
 </tr>
+<tr>
+<td align="center"><a href="mjolnir.html"><img src="assets/img/Mjolnir_logo.png" alt="Mjölnir logo" width="90"></a></td>
+<td><strong><a href="mjolnir.html">Mjölnir — MASW / Surface Waves</a></strong><br>
+Seismic: multichannel surface-wave analysis for shear-wave velocity (Vs) —
+dispersion imaging, curve picking, and layered Vs inversion for site
+characterization.</td>
+</tr>
+<tr>
+<td align="center"><a href="heimdall.html"><img src="assets/img/Heimdall_logo.png" alt="Heimdall logo" width="90"></a></td>
+<td><strong><a href="heimdall.html">Heimdall — Seismic Refraction</a></strong><br>
+Seismic: first-arrival refraction for P-wave velocity (Vp) — first-break
+picking, intercept-time/GRM layer models, and refraction tomography. Runs on
+the same records as Mjölnir.</td>
+</tr>
 </table>
 
 For licensing, pricing, and installers, contact
