@@ -9,55 +9,61 @@ description: Frequency-domain EM ground-conductivity processing.
 
 # Niflheim — EM Ground Conductivity
 
-**Frequency-domain electromagnetic ground-conductivity processing for
-shallow-earth surveys.**
+**Niflheim turns a walked EM conductivity survey into clean, georeferenced
+conductivity and inphase maps with anomalies flagged automatically.**
 
 > Named for **Niflheim**, the primordial Norse realm of mist and ice — apt
 > for a method whose response is dominated by pore water, salinity, and clay
 > content. One of the EM31's most established applications is permafrost and
 > frozen-ground mapping.
 
-Niflheim reads Geonics **EM31-MK2** ASCII (`.R31`) dumps, geolocates each
-sample from the embedded NMEA GPS stream, applies a configurable processing
-pipeline, grids both channels onto a map, and detects conductivity and
-inphase anomalies — from a CLI, a desktop GUI, or as a panel in the
-Yggdrasil shell.
+## What it does for you
 
-## Capabilities
+- Reads Geonics **EM31-MK2** survey files directly and geolocates every
+  sample from the instrument's embedded GPS stream.
+- Handles **both channels** throughout: apparent conductivity (mS/m) and
+  inphase (a magnetic-susceptibility proxy, ppt) are processed, gridded, and
+  displayed side by side.
+- Cleans field data with drift correction, despiking, detrending, and
+  station binning.
+- Grids both channels onto a map and flags conductivity and inphase
+  anomalies automatically.
 
-- **Two-channel handling throughout** — Quad (apparent conductivity, mS/m)
-  and Inphase (magnetic-susceptibility proxy, ppt) are read, processed,
-  gridded, and published side by side.
-- **Geolocation** — the embedded NMEA stream becomes a per-sample lat/lon
-  track, projected to UTM with a self-contained transform.
-- **Calibration overrides** — survey-specific raw-counts → mS/m and → ppt
-  scale factors, recorded in the survey header and round-tripped through the
-  survey YAML.
-- **Processing** — drift correction, despiking, detrending, and station
-  binning ahead of gridding.
-- **Gridding** — IDW / linear / nearest interpolation onto a regular map
-  grid, with size presets (auto / dense / coarse / custom cell size and
-  padding) selectable from the CLI config or the GUI.
-- **Anomaly detection** — conductivity/inphase outliers flagged by z-score
-  threshold and written to CSV.
-- **Display controls** — value ranges, percentile clipping, colormaps, and
-  profile scaling, all mirrored between the GUI and the survey YAML.
+## Workflow
 
-## GUI
+1. **Open your survey** — samples and the GPS track load in one step and
+   plot on the map immediately.
+2. **Calibrate** — apply survey-specific calibration factors when your
+   instrument's raw counts need adjusting; settings persist with the survey.
+3. **Process** — drift correction, despike, detrend, and station binning,
+   each a labelled control.
+4. **Grid and detect** — choose the interpolation (inverse-distance, linear,
+   or nearest) and grid density (auto, dense, coarse, or custom); anomalies
+   are flagged by statistical threshold and exported to CSV.
+5. **View and export** — conductivity and inphase maps with adjustable value
+   ranges, percentile clipping, and colormaps, plus profile views.
 
-The GUI exposes three persistent config groups — Display scales, Calibration,
-and Grid scale — that round-trip through the survey YAML, plus a built-in
-Help menu covering each section and a Quad-vs-Inphase primer.
+## Supported data
 
-## In the Yggdrasil shell
+- **Geonics EM31-MK2** files with embedded GPS — read directly, no
+  conversion step.
 
-One command publishes conductivity and inphase maps, GPS tracks, and
-detected anomalies into a Yggdrasil project's shared 3D scene. EM surfaces
-drape at a physically honest **effective depth** below ground (default 1.5 m
-for EM31-class penetration), so a conductivity grid sits under a
-[Midgard](midgard.html) radar curtain where the sensor actually senses —
-joint interpretation without manual placement. Any project containing EM
-data surfaces the Niflheim panel automatically.
+## Outputs & figures
+
+- Gridded conductivity and inphase maps, ready for a report.
+- GPS track and profile plots.
+- Anomaly lists with map coordinates, exported to CSV.
+
+## Part of the Yggdrasil platform
+
+Niflheim runs standalone or inside the [Yggdrasil
+application](yggdrasil.html), with a built-in Help menu that includes a
+quad-vs-inphase primer. One click publishes conductivity and inphase maps,
+GPS tracks, and detected anomalies into the project's shared 3D scene. EM
+surfaces drape at a physically honest **effective depth** below ground
+(about 1.5 m for EM31-class penetration), so a conductivity map sits beneath
+a [Midgard](midgard.html) radar profile where the sensor actually senses —
+joint interpretation without manual placement.
 
 ## Availability
 
