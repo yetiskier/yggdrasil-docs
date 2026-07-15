@@ -58,15 +58,15 @@ the methods your practice needs.
 
 <table>
 <tr>
-<td width="110" align="center"><a href="mimir.html"><img src="assets/img/Mimir_logo.png" alt="Mimir logo" width="90"></a></td>
-<td><strong><a href="mimir.html">Mimir — Electrical Resistivity Tomography</a></strong><br>
+<td width="110" align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/mimir.html"><img src="assets/img/Mimir_logo.png" alt="Mimir logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/mimir.html">Mimir — Electrical Resistivity Tomography</a></strong><br>
 DC-resistivity and IP: Syscal Pro and standard-format data, interactive QC
 and bad-point editing, GPS and terrain georeferencing, and 2D/3D resistivity
 inversion.</td>
 </tr>
 <tr>
-<td align="center"><a href="niflheim.html"><img src="assets/img/Niflheim_logo.png" alt="Niflheim logo" width="90"></a></td>
-<td><strong><a href="niflheim.html">Niflheim — EM Ground Conductivity</a></strong><br>
+<td align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/niflheim.html"><img src="assets/img/Niflheim_logo.png" alt="Niflheim logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/niflheim.html">Niflheim — EM Ground Conductivity</a></strong><br>
 Frequency-domain EM (Geonics EM31-class instruments): GPS geolocation,
 drift/despike/detrend processing, calibration control, map gridding, and
 anomaly detection.</td>
@@ -77,15 +77,15 @@ anomaly detection.</td>
 
 <table>
 <tr>
-<td width="110" align="center"><a href="bifrost.html"><img src="assets/img/Bifrost_logo.png" alt="Bifrost logo" width="90"></a></td>
-<td><strong><a href="bifrost.html">Bifrost — Borehole GPR Tomography</a></strong><br>
+<td width="110" align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/bifrost.html"><img src="assets/img/Bifrost_logo.png" alt="Bifrost logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/bifrost.html">Bifrost — Borehole GPR Tomography</a></strong><br>
 Crosshole traveltime tomography in 2D and 3D — plus any acquisition geometry
 (transducer rings, free-form layouts) — with first-break picking, ZOP
 analysis, synthetic resolution testing, and time-lapse comparison.</td>
 </tr>
 <tr>
-<td align="center"><a href="midgard.html"><img src="assets/img/Midgard_logo.png" alt="Midgard logo" width="90"></a></td>
-<td><strong><a href="midgard.html">Midgard — Surface GPR</a></strong><br>
+<td align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/midgard.html"><img src="assets/img/Midgard_logo.png" alt="Midgard logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/midgard.html">Midgard — Surface GPR</a></strong><br>
 Near-surface common-offset GPR: MALA, Sensors &amp; Software, and GSSI data,
 GPS geolocation, a reorderable processing pipeline, Kirchhoff and Stolt
 migration, automatic target detection, and 3D fence diagrams.</td>
@@ -96,15 +96,15 @@ migration, automatic target detection, and 3D fence diagrams.</td>
 
 <table>
 <tr>
-<td width="110" align="center"><a href="heimdall.html"><img src="assets/img/Heimdall_logo.png" alt="Heimdall logo" width="90"></a></td>
-<td><strong><a href="heimdall.html">Heimdall — Seismic Refraction</a></strong><br>
+<td width="110" align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/heimdall.html"><img src="assets/img/Heimdall_logo.png" alt="Heimdall logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/heimdall.html">Heimdall — Seismic Refraction</a></strong><br>
 First-arrival refraction for P-wave velocity (Vp): first-break picking,
 intercept-time / generalized reciprocal method layer models, and refraction
 tomography — depth to bedrock, water table, and rippability.</td>
 </tr>
 <tr>
-<td align="center"><a href="mjolnir.html"><img src="assets/img/Mjolnir_logo.png" alt="Mjölnir logo" width="90"></a></td>
-<td><strong><a href="mjolnir.html">Mjölnir — MASW / Surface Waves</a></strong><br>
+<td align="center"><a href="https://yetiskier.github.io/yggdrasil-docs/mjolnir.html"><img src="assets/img/Mjolnir_logo.png" alt="Mjölnir logo" width="90"></a></td>
+<td><strong><a href="https://yetiskier.github.io/yggdrasil-docs/mjolnir.html">Mjölnir — MASW / Surface Waves</a></strong><br>
 Multichannel analysis of surface waves for shear-wave velocity (Vs):
 SEG-2/SEG-Y/SU records, dispersion imaging, curve picking, and layered Vs
 inversion — Vs30 and geotechnical site characterization.</td>
@@ -130,4 +130,4 @@ For licensing, pricing, and installers (Windows and Linux), contact
 
 *Yggdrasil is proprietary software by Aesir Consulting LLC.*
 
-[← Back to the landing page](index.html)
+[← Back to the landing page](https://yetiskier.github.io/yggdrasil-docs/index.html)

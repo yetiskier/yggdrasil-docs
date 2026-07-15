@@ -57,12 +57,12 @@ conductivity and inphase maps with anomalies flagged automatically.**
 ## Part of the Yggdrasil platform
 
 Niflheim runs standalone or inside the [Yggdrasil
-application](yggdrasil.html), with a built-in Help menu that includes a
+application](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html), with a built-in Help menu that includes a
 quad-vs-inphase primer. One click publishes conductivity and inphase maps,
 GPS tracks, and detected anomalies into the project's shared 3D scene. EM
 surfaces drape at a physically honest **effective depth** below ground
 (about 1.5 m for EM31-class penetration), so a conductivity map sits beneath
-a [Midgard](midgard.html) radar profile where the sensor actually senses —
+a [Midgard](https://yetiskier.github.io/yggdrasil-docs/midgard.html) radar profile where the sensor actually senses —
 joint interpretation without manual placement.
 
 ## Availability
@@ -71,4 +71,4 @@ Niflheim is commercially licensed as part of the Yggdrasil suite (Windows
 and Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for
 licensing and installers.
 
-[← Back to the suite overview](yggdrasil.html)
+[← Back to the suite overview](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html)

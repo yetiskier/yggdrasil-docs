@@ -82,7 +82,7 @@ The standard engineering-seismograph formats, read directly:
 
 ## One spread, two methods
 
-Seismic refraction (Heimdall) and MASW ([Mjölnir](mjolnir.html)) run on the
+Seismic refraction (Heimdall) and MASW ([Mjölnir](https://yetiskier.github.io/yggdrasil-docs/mjolnir.html)) run on the
 **same field records**. Acquire one seismic spread and get both refraction
 P-wave velocity (Vp, Heimdall) and surface-wave shear velocity (Vs,
 Mjölnir) — and together Vp/Vs and Poisson's ratio, a powerful joint
@@ -93,7 +93,7 @@ records.
 ## Part of the Yggdrasil platform
 
 Heimdall runs standalone or inside the [Yggdrasil
-application](yggdrasil.html). Vp sections publish into the project's shared
+application](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html). Vp sections publish into the project's shared
 3D scene, draped against the site terrain alongside the site's other
 geophysics, and every processing setting is a labelled control in the GUI.
 
@@ -103,4 +103,4 @@ Heimdall is commercially licensed as part of the Yggdrasil suite (Windows and
 Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for licensing
 and installers.
 
-[← Back to the suite overview](yggdrasil.html)
+[← Back to the suite overview](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html)

@@ -84,12 +84,12 @@ combination on one figure), true-scale aspect, and topographic correction.*
 ## Part of the Yggdrasil platform
 
 Midgard runs standalone or inside the [Yggdrasil
-application](yggdrasil.html). It publishes migrated lines, depth slices, and
+application](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html). It publishes migrated lines, depth slices, and
 detected targets into the project's shared 3D scene, where radar profiles
 drape automatically from the site terrain model — far cleaner than raw GPS
-elevations. A velocity model from [Bifrost](bifrost.html) in the same
+elevations. A velocity model from [Bifrost](https://yetiskier.github.io/yggdrasil-docs/bifrost.html) in the same
 project can drive Midgard's depth conversion directly, and
-[Niflheim](niflheim.html)'s conductivity maps render beneath the radar
+[Niflheim](https://yetiskier.github.io/yggdrasil-docs/niflheim.html)'s conductivity maps render beneath the radar
 profiles for joint interpretation.
 
 ## Availability
@@ -98,4 +98,4 @@ Midgard is commercially licensed as part of the Yggdrasil suite (Windows and
 Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for
 licensing and installers.
 
-[← Back to the suite overview](yggdrasil.html)
+[← Back to the suite overview](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html)

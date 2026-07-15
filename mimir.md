@@ -88,7 +88,7 @@ Every setting is a labelled control grouped by tab (Survey / QC / Mesh /
 Inversion / IP), with tooltips throughout, and runs execute in the background
 so the interface never blocks. One click publishes the electrode layout,
 pseudosection, and inverted section or volume into the [Yggdrasil
-project](yggdrasil.html), where they render in the shared 3D scene alongside
+project](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html), where they render in the shared 3D scene alongside
 GPR and EM results, draped on the site terrain.
 
 ![Mimir GUI](assets/img/mimir_gui.png)
@@ -99,4 +99,4 @@ Mimir is commercially licensed as part of the Yggdrasil suite (Windows and
 Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for
 licensing and installers.
 
-[← Back to the suite overview](yggdrasil.html)
+[← Back to the suite overview](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html)

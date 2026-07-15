@@ -131,9 +131,9 @@ two-hole geometry's resolution limit, not the software.*
 ## Part of the Yggdrasil platform
 
 Bifrost runs standalone or as a panel inside the [Yggdrasil
-application](yggdrasil.html), with bundled example datasets, a live log, a
+application](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html), with bundled example datasets, a live log, a
 figure browser, and the embedded 3D volume and time-lapse viewer. Its
-velocity models can directly drive [Midgard](midgard.html)'s depth
+velocity models can directly drive [Midgard](https://yetiskier.github.io/yggdrasil-docs/midgard.html)'s depth
 conversion in the same project.
 
 ## Availability
@@ -142,4 +142,4 @@ Bifrost is commercially licensed as part of the Yggdrasil suite (Windows and
 Linux). Contact **[joel@aesirmt.com](mailto:joel@aesirmt.com)** for
 licensing and installers.
 
-[← Back to the suite overview](yggdrasil.html)
+[← Back to the suite overview](https://yetiskier.github.io/yggdrasil-docs/yggdrasil.html)
