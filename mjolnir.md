@@ -70,6 +70,11 @@ The standard engineering-seismograph formats, read directly:
 - Layered Vs(depth) profiles with reported misfit, and Vs30.
 - Stitched 2D Vs sections, exported as publication-quality figures.
 
+Every figure is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and a Vs section can be combined with
+results from other realms (including a Heimdall Vp section from the same
+spread) into one multi-panel report figure.
+
 ## One spread, two methods
 
 MASW (Mjölnir) and seismic refraction ([Heimdall](https://yetiskier.github.io/yggdrasil-docs/heimdall.html)) run on the

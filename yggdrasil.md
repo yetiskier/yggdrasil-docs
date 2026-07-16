@@ -39,14 +39,42 @@ translucent terrain and aerial-photo basemap.*
   for the methods a project actually contains — a GPR-only project presents
   GPR tools; an EM-plus-resistivity project presents both. Every processing
   setting is a labelled control with a tooltip; nothing is hidden.
+- **The same workflow every time.** Every method opens the same way: open
+  your data, see a plain-language summary of what was found, review or pick
+  what needs a human eye, then run. Advanced settings stay tucked away until
+  you go looking for them — you're never handed a wall of parameters up
+  front.
 - **Methods that work together.** Results flow between realms through the
   project: a velocity model from Bifrost drives Midgard's depth conversion;
   Niflheim's conductivity maps drape beneath Midgard's radar profiles at the
   depth the instrument actually senses.
-- **Publication-quality figures.** Every realm exports clean, consistently
-  styled figures ready for a client report — sections, maps, tomograms, and
-  3D scene views.
+- **Figures built for reports, not just screens.** Every result figure is
+  live in the viewer, not a fixed image — see "Figures & reporting" below.
 - **Windows and Linux.** The full suite runs on both platforms.
+
+## Figures & reporting
+
+Every result — a resistivity section, a radar profile, a conductivity map, a
+Vp tomogram, a 3D scene view — is a **live figure** in the viewer, not a
+picture you're stuck with:
+
+- **Tune it before you export it.** Adjust the color scale limits, colormap,
+  aspect ratio, and fonts right in the viewer, then export exactly what
+  you're looking at.
+- **Export at the size you actually need.** PNG, PDF, or SVG, sized to a
+  journal column width or a presentation slide — no separate touch-up pass
+  in other software.
+- **Combine results across methods.** Pull sections, maps, and tomograms
+  from any of the realms — a resistivity section next to a radar profile
+  next to a Vp tomogram — into one multi-panel figure with automatic panel
+  labelling, so a report can show the full picture from one site in a
+  single image.
+- **Batch-friendly.** Figures can auto-export on every run, so a routine
+  processing pass leaves a folder of report-ready figures behind with no
+  extra clicks.
+
+Figure-making is usually the slowest part of writing up a survey. In
+Yggdrasil, it's something the software does for you.
 
 ## The realms — organized by physics
 

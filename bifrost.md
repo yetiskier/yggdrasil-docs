@@ -116,6 +116,10 @@ Sections render shallow-at-top regardless of the site's elevation
 convention, cropped to fill the figure, with a secondary depth axis in feet
 alongside the metric one.
 
+Every figure is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and a Bifrost tomogram can be combined with
+results from other realms into one multi-panel report figure.
+
 ![Crosshole GPR velocity tomogram with raypaths (field data)](assets/img/bifrost_crosshole_field_example.png)
 
 *Crosshole GPR velocity tomogram with raypaths (field data) — one of the

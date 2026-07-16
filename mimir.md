@@ -82,6 +82,10 @@ implementation on real field surveys — here a Wenner line, model correlation
 - Pseudosections, per-level QC profiles, and cleaned survey files.
 - Publication-quality figure export throughout.
 
+Every figure is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and can be combined with results from other
+realms into one multi-panel report figure.
+
 ## Part of the Yggdrasil platform
 
 Every setting is a labelled control grouped by tab (Survey / QC / Mesh /

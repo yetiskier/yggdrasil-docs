@@ -80,6 +80,11 @@ The standard engineering-seismograph formats, read directly:
 - Gridded Vp tomograms with reported misfit, exported as
   publication-quality figures.
 
+Every figure is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and a Vp section can be combined with
+results from other realms (including a Mjölnir Vs section from the same
+spread) into one multi-panel report figure.
+
 ## One spread, two methods
 
 Seismic refraction (Heimdall) and MASW ([Mjölnir](https://yetiskier.github.io/yggdrasil-docs/mjolnir.html)) run on the

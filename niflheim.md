@@ -54,6 +54,10 @@ conductivity and inphase maps with anomalies flagged automatically.**
 - GPS track and profile plots.
 - Anomaly lists with map coordinates, exported to CSV.
 
+Every map is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and can be combined with results from other
+realms into one multi-panel report figure.
+
 ## Part of the Yggdrasil platform
 
 Niflheim runs standalone or inside the [Yggdrasil

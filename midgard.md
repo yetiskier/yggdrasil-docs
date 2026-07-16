@@ -81,6 +81,10 @@ combination on one figure), true-scale aspect, and topographic correction.*
 
 ![3D fence diagram of a serpentine survey](assets/img/fence.png)
 
+Every figure is live in the viewer — adjust the color scale, colormap, and
+aspect ratio before exporting — and a radargram or depth slice can be
+combined with results from other realms into one multi-panel report figure.
+
 ## Part of the Yggdrasil platform
 
 Midgard runs standalone or inside the [Yggdrasil
