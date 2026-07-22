@@ -144,6 +144,33 @@ the *same* seismic field records. Acquire one spread and recover both
 surface-wave shear velocity (Vs) and refraction P-wave velocity (Vp), and with
 them Vp/Vs and Poisson's ratio for joint interpretation.
 
+## Interpretation — one scene, every method
+
+Yggdrasil doesn't stop at processing. In **every** realm you can interpret the
+data and have the result plot in the correct place in the shared 3-D scene:
+
+- **Delineate anomalies.** Outline an anomaly on a 2-D image — a GPR profile, an
+  EM conductivity map, an ERT resistivity section — and it is placed as a
+  polygon on that image's true plane in 3-D. Auto-seed outlines by thresholding
+  the field (in log-space for resistivity) or draw them by hand.
+- **Pick and correlate layers.** Pick a layer on a radar profile, or pick a
+  boundary across several seismic shot locations and **correlate it into a
+  single 3-D horizon** surface. Vs, Vp, and GPR sections share one frame, so a
+  horizon lands exactly where its section is.
+- **Build 3-D bodies.** For gridded/cube data (e.g. common-offset GPR), step
+  through time/depth slices, delineate the extent of multiple anomalies on each
+  slice, and continue them in depth — the linking system decides which picks
+  belong to which anomaly and lofts each track into a closed 3-D body. EM and
+  ERT anomalies extrude/threshold into bodies the same way, and Mimir adds a
+  full **3-D resistivity inversion** volume.
+- **Everything persists in the scene.** Each realm's "Load results into scene"
+  button pushes its interpretations into the project's scene; re-running an
+  interpretation updates them in place.
+
+Interpretations are ordinary project datasets (`interp.*`) with a reproducible
+history, owned by the realm that made them — so a Midgard anomaly, a Mimir
+resistivity body, and a Heimdall horizon all co-register in the same view.
+
 ## Licensing
 
 Yggdrasil is commercially licensed, per method package. Licensing works
